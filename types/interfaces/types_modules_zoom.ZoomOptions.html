@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ZoomOptions | Swiper - v11.0.6</title>
-	<meta name="description" content="Documentation for Swiper - v11.0.6">
+	<title>ZoomOptions | Swiper - v11.0.7</title>
+	<meta name="description" content="Documentation for Swiper - v11.0.7">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
 	<script async src="../assets/js/search.js" id="search-script"></script>
@@ -23,7 +23,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="../index.html" class="title">Swiper - v11.0.6</a>
+					<a href="../index.html" class="title">Swiper - v11.0.7</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -52,7 +52,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="../modules.html">Swiper - v11.0.6</a>
+					<a href="../modules.html">Swiper - v11.0.7</a>
 				</li>
 				<li>
 					<a href="../modules/types_modules_zoom.html">types/modules/zoom</a>
@@ -84,6 +84,7 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="types_modules_zoom.ZoomOptions.html#containerClass" class="tsd-kind-icon">container<wbr>Class</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="types_modules_zoom.ZoomOptions.html#limitToOriginalSize" class="tsd-kind-icon">limit<wbr>ToOriginal<wbr>Size</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="types_modules_zoom.ZoomOptions.html#maxRatio" class="tsd-kind-icon">max<wbr>Ratio</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="types_modules_zoom.ZoomOptions.html#minRatio" class="tsd-kind-icon">min<wbr>Ratio</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-external"><a href="types_modules_zoom.ZoomOptions.html#toggle" class="tsd-kind-icon">toggle</a></li>
@@ -101,7 +102,7 @@
 					<div class="tsd-signature tsd-kind-icon">container<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in swiper/types/modules/zoom.d.ts:71</li>
+							<li>Defined in swiper/types/modules/zoom.d.ts:77</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -116,12 +117,32 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+					<a name="limitToOriginalSize" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> limit<wbr>ToOriginal<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">limit<wbr>ToOriginal<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in swiper/types/modules/zoom.d.ts:53</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>When set to true, the image will not be scaled past 100% of its original size</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>default</dt>
+							<dd><p>false</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 					<a name="maxRatio" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Ratio</h3>
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in swiper/types/modules/zoom.d.ts:53</li>
+							<li>Defined in swiper/types/modules/zoom.d.ts:59</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -141,7 +162,7 @@
 					<div class="tsd-signature tsd-kind-icon">min<wbr>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in swiper/types/modules/zoom.d.ts:59</li>
+							<li>Defined in swiper/types/modules/zoom.d.ts:65</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -161,7 +182,7 @@
 					<div class="tsd-signature tsd-kind-icon">toggle<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in swiper/types/modules/zoom.d.ts:65</li>
+							<li>Defined in swiper/types/modules/zoom.d.ts:71</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -181,7 +202,7 @@
 					<div class="tsd-signature tsd-kind-icon">zoomed<wbr>Slide<wbr>Class<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in swiper/types/modules/zoom.d.ts:78</li>
+							<li>Defined in swiper/types/modules/zoom.d.ts:84</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -223,6 +244,9 @@
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 								<a href="types_modules_zoom.ZoomOptions.html#containerClass" class="tsd-kind-icon">container<wbr>Class</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
+								<a href="types_modules_zoom.ZoomOptions.html#limitToOriginalSize" class="tsd-kind-icon">limit<wbr>ToOriginal<wbr>Size</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-external">
 								<a href="types_modules_zoom.ZoomOptions.html#maxRatio" class="tsd-kind-icon">max<wbr>Ratio</a>
